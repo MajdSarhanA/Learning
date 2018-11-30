@@ -4,10 +4,6 @@ var myConsole = {
   }
 }
 
-var person = "Majd";
+var people = ['Alaa', "Majd", 'Anas'];
 
-if (person == "Majd") {
-  myConsole.log(person);
-} else {
-  myConsole.log("Wrong Person");
-}
+people.forEach(person => console.log(person));
